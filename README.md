@@ -9,11 +9,13 @@ Inside the header:
 ```
 Inside the body:
 ```php
+<?php
 // 2. Create array of navigation values.
 $fadenav = array("one", "two");
 
 // 3. Include PHP script (fadenav.php)
 include 'fadenav.php';
+?>
 ```
 Inside the footer:
 ```html
