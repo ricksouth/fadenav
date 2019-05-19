@@ -10,11 +10,11 @@ Inside the header:
 Inside the body:
 ```php
 <?php
-// 2. Create array of navigation values.
-$fadenav = array("one", "two");
+  // 2. Create array of navigation values.
+  $fadenav = array("one", "two");
 
-// 3. Include PHP script (fadenav.php)
-include 'fadenav.php';
+  // 3. Include PHP script (fadenav.php)
+  include 'fadenav.php';
 ?>
 ```
 Inside the footer:
@@ -26,25 +26,25 @@ Inside the footer:
 ```
 ```html
 <script>
-	var randomized = 0;
-	function processFadeNav(value) {
-		var num = Math.floor((Math.random() * 100000) + 1);
-		randomized = num;
+  var randomized = 0;
+  function processFadeNav(value) {
+    var num = Math.floor((Math.random() * 100000) + 1);
+    randomized = num;
 
-		$.ajax({
-			type: "POST",
-			url: "/path/to/get.php",
-			data: { 
-				data : value
-			},
-			success: function(data) {
-				if (num == randomized) {
-					$("#id").html(data);
-				}
-			},
-			error: function(data) {}
-		});
-	}
+    $.ajax({
+      type: "POST",
+      url: "/path/to/get.php",
+      data: { 
+        data : value
+      },
+      success: function(data) {
+        if (num == randomized) {
+          $("#id").html(data);
+        }
+      },
+      error: function(data) {}
+    });
+  }
 </script>
 ```
 
