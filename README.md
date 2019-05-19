@@ -26,4 +26,4 @@ Inside the footer:
 ```
 
 For a complete example:
-https://github.com/natamus/fadenav/blob/master/example.php
+<a href="https://github.com/natamus/fadenav/blob/master/example.php" target=_blank>Example</a>
