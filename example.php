@@ -14,7 +14,7 @@
 	<body>
 		<div style="width: 100%; height: 100%;">
 			<?php
-				// 2. Create array of navigation values.
+				// 2. Create an array of the navigation values.
 				$fadenav = array("one", "two");
 
 				// 3. Include PHP script (fadenav.php)
