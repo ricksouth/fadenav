@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="cleartype" content="on">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="HandheldFriendly" content=True>
+		<meta name="MobileOptimized" content=320>
+		<title>FadeNav Demo Example</title>
+		<meta name="description" content="Source available at https://github.com/natamus/fadenav.">
+		<link rel="stylesheet" href="/fadenav.css">
+	</head>
+	<body>
+		<div style="width: 100%; height: 100%;">
+			<div class="fadenavwrapper">';
+				<select class="navoptions" hidden>
+					<option>One</option>
+					<option>Two</option>
+					<option>Three</option>
+					<option>Four</option>
+					<option>Five</option>
+					<option>Six</option>
+					<option>Seven</option>
+				</select>
+				<p id="cat-before-two" class="smallest">Six</p>
+				<p id="cat-before-one" class="smaller">Seven</p>
+				<p id="cat-active">One</p>
+				<p id="cat-after-one" class="smaller">Two</p>
+				<p id="cat-after-two" class="smallest">Three</p>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="/fadenav.js"></script>
+	<script>
+		function processFadeNav(value) {
+			console.log(value);
+		}
+	</script>
+</html>
