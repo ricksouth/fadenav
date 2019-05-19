@@ -26,4 +26,27 @@
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 	<!-- 5. Include Javascript script (fadenav.js) -->
 	<script type="text/javascript" src="fadenav.js"></script>
+
+	<!-- 6. (Optional) Process the navigation change -->
+	<script>
+		var randomized = 0;
+		function processFadeNav(value) {
+			var num = Math.floor((Math.random() * 100000) + 1);
+			randomized = num;
+
+			$.ajax({
+				type: "POST",
+				url: "/path/to/get.php",
+				data: { 
+					data : value
+				},
+				success: function(data) {
+					if (num == randomized) {
+						$("#id").html(data);
+					}
+				},
+				error: function(data) {}
+			});
+		}
+	</script>
 </html>
