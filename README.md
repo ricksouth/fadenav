@@ -1,6 +1,7 @@
 # FadeNav
 An infinite horizontal scrolling fading navigation HTML, PHP, JS, JQuery and CSS.
-There is a demo (without PHP) available [here](https://fadenav.natamus.com/demo.html).
+
+A demo (without PHP) is available [here](https://fadenav.natamus.com/demo.html).
 
 # How it works:
 Inside the header:
