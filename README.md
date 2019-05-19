@@ -25,11 +25,7 @@ Inside the footer:
 <script type="text/javascript" src="fadenav.js"></script>
 ```
 ```html
-<!-- 
-6. (Optional) Process the navigation change
-The processFadeNav(value) function is ran whenever the navigation changes, where value is the active navigation value.
-The randomized number makes sure only the last selected value is processed after fast switching.
--->
+<!-- 6. (Optional) Process the navigation change -->
 <script>
   var randomized = 0;
   function processFadeNav(value) {
@@ -52,5 +48,7 @@ The randomized number makes sure only the last selected value is processed after
   }
 </script>
 ```
+The processFadeNav(value) function is ran whenever the navigation changes, where value is the active navigation value.
+The randomized number makes sure only the last selected value is processed after fast switching.
 
 Or see this [file](https://github.com/natamus/fadenav/blob/master/example.php) for a complete example.
