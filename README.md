@@ -48,7 +48,6 @@ Inside the footer:
   }
 </script>
 ```
-The processFadeNav(value) function is ran whenever the navigation changes, where value is the active navigation value.
-The randomized number makes sure only the last selected value is processed after fast switching.
+###### The processFadeNav(value) function is ran whenever the navigation changes, where value is the active navigation value. The randomized number makes sure only the last selected value is processed after fast switching.
 
 Or see this [file](https://github.com/natamus/fadenav/blob/master/example.php) for a complete example.
