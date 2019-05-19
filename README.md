@@ -25,5 +25,5 @@ Inside the footer:
 <script type="text/javascript" src="fadenav.js"></script>
 ```
 
-For a complete example:
-<a href="https://github.com/natamus/fadenav/blob/master/example.php" target=_blank>Example</a>
+For a complete example
+<a href="https://github.com/natamus/fadenav/blob/master/example.php" target=_blank>example.php</a>
