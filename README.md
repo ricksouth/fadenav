@@ -1,7 +1,11 @@
 # fadenav
 An infinite horizontal scrolling fading navigation.
 
+# How it works:
+There is a complete example available here:
+https://github.com/natamus/fadenav/blob/master/example.php
 
+These are the steps:
 ```html
 <!-- 1. Include CSS stylesheet (fadenav.css) -->
 <link rel="stylesheet" href="fadenav.css">
