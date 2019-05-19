@@ -25,4 +25,4 @@ Inside the footer:
 <script type="text/javascript" src="fadenav.js"></script>
 ```
 
-Or see this [file](https://github.com/natamus/fadenav/blob/master/example.php){:target="_blank"} for a complete example.
+Or see this [file](https://github.com/natamus/fadenav/blob/master/example.php) for a complete example.
